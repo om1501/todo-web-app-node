@@ -1,0 +1,66 @@
+# ---------------------------
+# Node.js (Backend)
+# ---------------------------
+
+# Dependencies
+backend/node_modules/
+
+# Environment variables
+backend/.env
+
+# Logs
+backend/logs
+backend/*.log
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# Runtime files
+backend/pids
+backend/*.pid
+backend/*.seed
+backend/*.pid.lock
+
+# Coverage
+backend/coverage/
+
+# Output
+backend/dist/
+backend/build/
+
+# Debug files
+backend/.nyc_output/
+backend/.vscode/
+
+# ---------------------------
+# Angular (Frontend)
+# ---------------------------
+
+# Dependencies
+frontend/node_modules/
+
+# Angular build output
+frontend/dist/
+frontend/.angular/
+
+# IDE files
+frontend/.idea/
+frontend/.vscode/
+
+# Temporary files
+frontend/tmp/
+frontend/.temp/
+
+# Logs
+frontend/*.log
+
+# Environment files
+frontend/src/environments/environment.prod.ts
+frontend/src/environments/environment.ts
+
+# OS / global ignore
+.DS_Store
+Thumbs.db
+
+# Git folder ignores
+*.orig
